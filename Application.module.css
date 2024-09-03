@@ -1,0 +1,2285 @@
+.firstName {
+    position: absolute;
+    top: 4.27%;
+    left: 13.62%;
+    font-weight: 300;
+    color: #000;
+}
+.dateOfBirth {
+    position: absolute;
+    top: 7.01%;
+    left: 39.22%;
+    font-weight: 300;
+    color: #000;
+}
+.alternativeMobileNumber {
+    position: absolute;
+    top: 14.68%;
+    left: 39.22%;
+    font-weight: 300;
+    color: #000;
+}
+.uploadPhotography {
+    position: absolute;
+    top: 74.06%;
+    left: 14.42%;
+    font-weight: 300;
+    color: #000;
+}
+.permanentHomeAddress {
+    position: absolute;
+    top: 11.94%;
+    left: 13.56%;
+    font-weight: 300;
+    color: #000;
+}
+.lastName {
+    position: absolute;
+    width: 11.04%;
+    top: 4.27%;
+    left: 64.48%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.gender {
+    position: absolute;
+    top: 7.01%;
+    left: 13.62%;
+    font-weight: 300;
+    color: #000;
+}
+.nameOfThe {
+    position: absolute;
+    top: 17.9%;
+    left: 52.31%;
+    font-weight: 300;
+    color: #000;
+}
+.nameOfQualifying {
+    position: absolute;
+    top: 17.9%;
+    left: 13.56%;
+    font-weight: 300;
+    color: #000;
+}
+.mobileNumber {
+    position: absolute;
+    top: 14.68%;
+    left: 13.62%;
+    font-weight: 300;
+    color: #000;
+}
+.studentId {
+    position: absolute;
+    top: 7.01%;
+    left: 64.81%;
+    font-weight: 300;
+    color: #000;
+}
+.emailAddress {
+    position: absolute;
+    top: 14.68%;
+    left: 64.81%;
+    font-weight: 300;
+    color: #000;
+}
+.districtRegion {
+    position: absolute;
+    top: 11.94%;
+    left: 53.24%;
+    font-weight: 300;
+    color: #000;
+}
+.applicationForm {
+    position: absolute;
+    top: 1.78%;
+    left: calc(50% - 154px);
+    font-size: 40px;
+    font-family: 'DM Serif Display';
+    color: #000;
+}
+.newHereCreate {
+    position: absolute;
+    top: 2.79%;
+    left: 40.48%;
+    font-size: 18px;
+    color: #a0a0a0;
+}
+.detailsOfLast {
+    color: #a0a0a0;
+}
+.detailsOfLastContainer {
+    position: absolute;
+    top: 29.63%;
+    left: 205px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.text {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 8.27%;
+    left: 50.69%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text1 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 15.94%;
+    left: 50.69%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text2 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 75.33%;
+    left: 25.88%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text3 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 5.54%;
+    left: 53.53%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text4 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 8.27%;
+    left: 15.17%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text5 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 19.17%;
+    left: 53.86%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text6 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 19.17%;
+    left: 15.1%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text7 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 15.94%;
+    left: 15.17%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text8 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 8.27%;
+    left: 68.08%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text9 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 13.21%;
+    left: 54.79%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 4.99%;
+    right: 64.81%;
+    bottom: 94.09%;
+    left: 13.62%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationItem {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 7.72%;
+    right: 39.22%;
+    bottom: 91.36%;
+    left: 39.22%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationInner {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 15.39%;
+    right: 39.22%;
+    bottom: 83.69%;
+    left: 39.22%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.rectangleIcon {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 74.87%;
+    right: 51.19%;
+    bottom: 24.22%;
+    left: 14.55%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild1 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 12.66%;
+    right: 52.05%;
+    bottom: 86.42%;
+    left: 13.56%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild2 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.89%;
+    top: 4.99%;
+    right: 13.62%;
+    bottom: 94.09%;
+    left: 64.48%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild3 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 7.72%;
+    right: 64.81%;
+    bottom: 91.36%;
+    left: 13.62%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild4 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 18.62%;
+    right: 13.29%;
+    bottom: 80.46%;
+    left: 52.31%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild5 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 18.62%;
+    right: 52.18%;
+    bottom: 80.46%;
+    left: 13.56%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild6 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 15.39%;
+    right: 64.81%;
+    bottom: 83.69%;
+    left: 13.62%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild7 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 7.72%;
+    right: 13.62%;
+    bottom: 91.36%;
+    left: 64.81%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild8 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 15.39%;
+    right: 13.62%;
+    bottom: 83.69%;
+    left: 64.81%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild9 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 12.66%;
+    right: 13.69%;
+    bottom: 86.42%;
+    left: 51.92%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.parnab {
+    position: absolute;
+    top: 283px;
+    left: 217px;
+    font-weight: 300;
+}
+.middleName {
+    position: absolute;
+    width: 12.5%;
+    top: 4.27%;
+    left: 39.29%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.applicationChild10 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.49%;
+    top: 4.99%;
+    right: 39.22%;
+    bottom: 94.09%;
+    left: 39.29%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.kumar {
+    position: absolute;
+    top: 283px;
+    left: 609px;
+    display: inline-block;
+    font-weight: 300;
+    width: 91px;
+}
+.i {
+    position: absolute;
+    top: 432px;
+    left: 604px;
+    font-weight: 300;
+}
+.cityName {
+    position: absolute;
+    top: 850px;
+    left: 604px;
+    font-weight: 300;
+}
+.clickToUpload {
+    position: absolute;
+    top: 4092px;
+    left: 231px;
+    font-weight: 300;
+}
+.debard21Street {
+    position: absolute;
+    top: 701px;
+    left: 216px;
+    font-weight: 300;
+}
+.bagchi {
+    position: absolute;
+    top: 283px;
+    left: 991px;
+    display: inline-block;
+    font-weight: 300;
+    width: 102px;
+}
+.totalMarksObtained {
+    position: absolute;
+    top: 27.24%;
+    left: 13.56%;
+    font-weight: 300;
+    color: #000;
+}
+.overallPercentage {
+    position: absolute;
+    width: 15.34%;
+    top: 27.24%;
+    left: 64.42%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.text10 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 28.51%;
+    left: 53.46%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild11 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 27.96%;
+    right: 64.88%;
+    bottom: 71.12%;
+    left: 13.56%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild12 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.89%;
+    top: 27.96%;
+    right: 13.69%;
+    bottom: 71.12%;
+    left: 64.42%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i1 {
+    position: absolute;
+    top: 1535px;
+    left: 216px;
+    font-weight: 300;
+}
+.outOf {
+    position: absolute;
+    width: 12.5%;
+    top: 27.24%;
+    left: 39.22%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.applicationChild13 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.49%;
+    top: 27.96%;
+    right: 39.29%;
+    bottom: 71.12%;
+    left: 39.22%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i2 {
+    position: absolute;
+    top: 1535px;
+    left: 608px;
+    display: inline-block;
+    font-weight: 300;
+    width: 91px;
+}
+.i3 {
+    position: absolute;
+    top: 1535px;
+    left: 990px;
+    display: inline-block;
+    font-weight: 300;
+    width: 102px;
+}
+.selectGender {
+    position: absolute;
+    top: 432px;
+    left: 217px;
+    font-weight: 300;
+}
+.cityName1 {
+    position: absolute;
+    top: 1026px;
+    left: 216px;
+    font-weight: 300;
+}
+.rollNumberOf {
+    position: absolute;
+    top: 22.47%;
+    left: 13.56%;
+    font-weight: 300;
+    color: #000;
+}
+.yearOfQualifying {
+    position: absolute;
+    top: 20.29%;
+    left: 13.56%;
+    font-weight: 300;
+    color: #000;
+}
+.text11 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 21.56%;
+    left: 53.86%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text12 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 21.56%;
+    left: 15.1%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild14 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 23.19%;
+    right: 52.05%;
+    bottom: 75.89%;
+    left: 13.56%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.passingYearOf {
+    position: absolute;
+    top: 24.86%;
+    left: 13.56%;
+    font-weight: 300;
+    color: #000;
+}
+.applicationChild15 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 25.57%;
+    right: 52.05%;
+    bottom: 73.51%;
+    left: 13.56%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild17 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 21.01%;
+    right: 52.18%;
+    bottom: 78.08%;
+    left: 13.56%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.cityName2 {
+    position: absolute;
+    top: 1156px;
+    left: 216px;
+    font-weight: 300;
+}
+.cityName5 {
+    position: absolute;
+    top: 850px;
+    left: 217px;
+    font-weight: 300;
+}
+.i7 {
+    position: absolute;
+    top: 437px;
+    left: 990px;
+    font-weight: 300;
+}
+.selectName {
+    position: absolute;
+    top: 850px;
+    left: 991px;
+    font-weight: 300;
+}
+.submit {
+    position: relative;
+}
+.logInButton {
+    position: absolute;
+    top: 4987px;
+    left: calc(50% - 250px);
+    border-radius: 10px;
+    background: linear-gradient(-83.69deg, #efb506, rgba(255, 193, 7, 0.15));
+    width: 500px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.vectorIcon {
+    position: absolute;
+    height: 0.13%;
+    width: 0.93%;
+    top: 8.12%;
+    right: 66.73%;
+    bottom: 91.75%;
+    left: 32.34%;
+    border-radius: 0.3px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.fathersName {
+    position: absolute;
+    top: 43.83%;
+    left: 13.96%;
+    font-weight: 300;
+    color: #000;
+}
+.anyLinguisticreligiousMinor {
+    position: absolute;
+    top: 49.04%;
+    left: 39.22%;
+    font-weight: 300;
+    color: #000;
+}
+.guardiansName {
+    position: absolute;
+    width: 13.96%;
+    top: 43.83%;
+    left: 64.81%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.occupationOfGuardian {
+    position: absolute;
+    top: 46.32%;
+    left: 13.96%;
+    font-weight: 300;
+    color: #000;
+}
+.weatherDifferentlyAble {
+    position: absolute;
+    top: 49.02%;
+    left: 14.42%;
+    font-weight: 300;
+    color: #000;
+}
+.text18 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 47.59%;
+    left: 51.02%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text19 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 45.09%;
+    left: 53.86%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text20 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 47.59%;
+    left: 15.5%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text21 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 50.28%;
+    left: 17.68%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild27 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 44.54%;
+    right: 64.48%;
+    bottom: 54.54%;
+    left: 13.96%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild28 {
+    position: absolute;
+    height: 0.92%;
+    width: 30.95%;
+    top: 49.75%;
+    right: 29.83%;
+    bottom: 49.33%;
+    left: 39.22%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild29 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.89%;
+    top: 44.54%;
+    right: 13.29%;
+    bottom: 54.54%;
+    left: 64.81%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild30 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 47.04%;
+    right: 64.48%;
+    bottom: 52.05%;
+    left: 13.96%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild31 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 49.73%;
+    right: 64.02%;
+    bottom: 49.35%;
+    left: 14.42%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.parnab1 {
+    position: absolute;
+    top: 2439px;
+    left: 222px;
+    font-weight: 300;
+}
+.mothersName {
+    position: absolute;
+    width: 12.5%;
+    top: 43.83%;
+    left: 39.62%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.applicationChild32 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.49%;
+    top: 44.54%;
+    right: 38.89%;
+    bottom: 54.54%;
+    left: 39.62%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.kumar1 {
+    position: absolute;
+    top: 2439px;
+    left: 614px;
+    display: inline-block;
+    font-weight: 300;
+    width: 91px;
+}
+.i8 {
+    position: absolute;
+    top: 2723px;
+    left: 604px;
+    font-weight: 300;
+}
+.bagchi1 {
+    position: absolute;
+    top: 2439px;
+    left: 996px;
+    display: inline-block;
+    font-weight: 300;
+    width: 102px;
+}
+.select {
+    font-weight: 300;
+}
+.selectOccupation {
+    position: absolute;
+    top: 2575px;
+    left: 222px;
+}
+.i9 {
+    position: absolute;
+    top: 2727px;
+    left: 228px;
+    font-weight: 300;
+}
+.caste {
+    position: absolute;
+    top: 46.32%;
+    left: 64.95%;
+    font-weight: 300;
+    color: #000;
+}
+.text22 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 47.59%;
+    left: 68.21%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild33 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 47.04%;
+    right: 13.49%;
+    bottom: 52.05%;
+    left: 64.95%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i10 {
+    position: absolute;
+    top: 2580px;
+    left: 992px;
+    font-weight: 300;
+}
+.relationWithGuardian {
+    position: absolute;
+    top: 46.34%;
+    left: 39.22%;
+    font-weight: 300;
+    color: #000;
+}
+.text23 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 47.61%;
+    left: 42.49%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild34 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 47.06%;
+    right: 39.22%;
+    bottom: 52.03%;
+    left: 39.22%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i11 {
+    position: absolute;
+    top: 2581px;
+    left: 603px;
+    font-weight: 300;
+}
+.vectorIcon1 {
+    position: absolute;
+    height: 0.13%;
+    width: 0.93%;
+    top: 47.43%;
+    right: 66.4%;
+    bottom: 52.44%;
+    left: 32.67%;
+    border-radius: 0.3px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.houseNo {
+    position: absolute;
+    top: 53.82%;
+    left: 14.42%;
+    font-weight: 300;
+    color: #000;
+}
+.townvillage {
+    position: absolute;
+    width: 13.96%;
+    top: 53.82%;
+    left: 65.28%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.postOffice {
+    position: absolute;
+    top: 56.32%;
+    left: 14.42%;
+    font-weight: 300;
+    color: #000;
+}
+.text24 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 57.59%;
+    left: 51.48%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text25 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 55.09%;
+    left: 54.32%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text26 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 57.59%;
+    left: 15.96%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild35 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 54.54%;
+    right: 64.02%;
+    bottom: 44.54%;
+    left: 14.42%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild36 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.89%;
+    top: 54.54%;
+    right: 12.83%;
+    bottom: 44.54%;
+    left: 65.28%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild37 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 57.04%;
+    right: 64.02%;
+    bottom: 42.05%;
+    left: 14.42%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.parnab2 {
+    position: absolute;
+    top: 2984px;
+    left: 229px;
+    font-weight: 300;
+}
+.streetName {
+    position: absolute;
+    width: 12.5%;
+    top: 53.82%;
+    left: 40.08%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.applicationChild38 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.49%;
+    top: 54.54%;
+    right: 38.43%;
+    bottom: 44.54%;
+    left: 40.08%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.kumar2 {
+    position: absolute;
+    top: 2984px;
+    left: 621px;
+    display: inline-block;
+    font-weight: 300;
+    width: 91px;
+}
+.bagchi2 {
+    position: absolute;
+    top: 2984px;
+    left: 1003px;
+    display: inline-block;
+    font-weight: 300;
+    width: 102px;
+}
+.selectOccupation1 {
+    position: absolute;
+    top: 3120px;
+    left: 229px;
+}
+.district {
+    position: absolute;
+    top: 56.32%;
+    left: 65.41%;
+    font-weight: 300;
+    color: #000;
+}
+.text27 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 57.59%;
+    left: 68.68%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild39 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 57.04%;
+    right: 13.03%;
+    bottom: 42.05%;
+    left: 65.41%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i12 {
+    position: absolute;
+    top: 3125px;
+    left: 999px;
+    font-weight: 300;
+}
+.state {
+    position: absolute;
+    top: 58.56%;
+    left: 14.42%;
+    font-weight: 300;
+    color: #000;
+}
+.text28 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 59.82%;
+    left: 17.68%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild40 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 59.27%;
+    right: 64.02%;
+    bottom: 39.81%;
+    left: 14.42%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i13 {
+    position: absolute;
+    top: 3247px;
+    left: 228px;
+    font-weight: 300;
+}
+.pinCode {
+    position: absolute;
+    top: 56.34%;
+    left: 39.68%;
+    font-weight: 300;
+    color: #000;
+}
+.text29 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 57.6%;
+    left: 42.95%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild41 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 57.05%;
+    right: 38.76%;
+    bottom: 42.03%;
+    left: 39.68%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i14 {
+    position: absolute;
+    top: 3126px;
+    left: 610px;
+    font-weight: 300;
+}
+.vectorIcon2 {
+    position: absolute;
+    height: 0.13%;
+    width: 0.93%;
+    top: 57.43%;
+    right: 65.94%;
+    bottom: 42.44%;
+    left: 33.13%;
+    border-radius: 0.3px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.religion {
+    position: absolute;
+    top: 9.37%;
+    left: 39.22%;
+    font-weight: 300;
+    color: #000;
+}
+.nationality {
+    position: absolute;
+    top: 9.37%;
+    left: 13.62%;
+    font-weight: 300;
+    color: #000;
+}
+.adhaarId {
+    position: absolute;
+    top: 9.37%;
+    left: 64.81%;
+    font-weight: 300;
+    color: #000;
+}
+.text30 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 10.64%;
+    left: 50.69%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text31 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 10.64%;
+    left: 15.17%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text32 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 10.64%;
+    left: 68.08%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild42 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 10.09%;
+    right: 39.22%;
+    bottom: 88.99%;
+    left: 39.22%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild43 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 10.09%;
+    right: 64.81%;
+    bottom: 88.99%;
+    left: 13.62%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild44 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 10.09%;
+    right: 13.62%;
+    bottom: 88.99%;
+    left: 64.81%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.bagchi3 {
+    position: absolute;
+    top: 561px;
+    left: 604px;
+    font-weight: 300;
+}
+.select2 {
+    position: absolute;
+    top: 561px;
+    left: 217px;
+    font-weight: 300;
+}
+.i15 {
+    position: absolute;
+    top: 566px;
+    left: 990px;
+    font-weight: 300;
+}
+.vectorIcon3 {
+    position: absolute;
+    height: 0.13%;
+    width: 0.93%;
+    top: 10.48%;
+    right: 66.73%;
+    bottom: 89.39%;
+    left: 32.34%;
+    border-radius: 0.3px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.lineIcon {
+    position: absolute;
+    top: 930px;
+    left: calc(50% - 548px);
+    width: 1096px;
+    height: 4.9px;
+    object-fit: contain;
+}
+.applicationChild45 {
+    position: absolute;
+    top: 1677px;
+    left: calc(50% - 548px);
+    width: 1096px;
+    height: 4.9px;
+    object-fit: contain;
+}
+.presentCourseOfContainer {
+    position: absolute;
+    top: 41%;
+    left: 206px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.presentCourseOfContainer1 {
+    position: absolute;
+    top: 61%;
+    left: 218px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.sizeLessThanContainer {
+    position: absolute;
+    top: 75.99%;
+    left: 222px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.firstPage {
+    font-weight: 200;
+}
+.uploadBankPassbookContainer {
+    position: absolute;
+    top: 68.98%;
+    left: 15.08%;
+    color: #000;
+}
+.text33 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 70.24%;
+    left: 26.55%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild46 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 69.79%;
+    right: 50.53%;
+    bottom: 29.3%;
+    left: 15.21%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clickToUploadContainer {
+    position: absolute;
+    top: 3815px;
+    left: 241px;
+}
+.sizeLessThanContainer1 {
+    position: absolute;
+    top: 71.2%;
+    left: 230px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.uploadSignature {
+    position: absolute;
+    top: 74.06%;
+    left: 54.17%;
+    font-weight: 300;
+    color: #000;
+}
+.text34 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 75.33%;
+    left: 64.97%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild47 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 74.87%;
+    right: 11.44%;
+    bottom: 24.22%;
+    left: 54.3%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clickToUpload2 {
+    position: absolute;
+    top: 4092px;
+    left: 832px;
+    font-weight: 300;
+}
+.sizeLessThanContainer2 {
+    position: absolute;
+    top: 75.99%;
+    left: 823px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.uploadAadhaarCard {
+    position: absolute;
+    top: 77.6%;
+    left: 14.42%;
+    font-weight: 300;
+    color: #000;
+}
+.text35 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 78.94%;
+    left: 26.55%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild48 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 78.41%;
+    right: 51.19%;
+    bottom: 20.68%;
+    left: 14.55%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clickToUploadContainer1 {
+    position: absolute;
+    top: 4285px;
+    left: 231px;
+}
+.sizeLessThanContainer3 {
+    position: absolute;
+    top: 79.53%;
+    left: 222px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.uploadDomicileCertificate {
+    position: absolute;
+    top: 77.67%;
+    left: 54.17%;
+    font-weight: 300;
+    color: #000;
+}
+.text36 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 78.94%;
+    left: 65.63%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild49 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 78.48%;
+    right: 11.44%;
+    bottom: 20.6%;
+    left: 54.3%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clickToUploadContainer2 {
+    position: absolute;
+    top: 4289px;
+    left: 832px;
+}
+.sizeLessThanContainer4 {
+    position: absolute;
+    top: 79.6%;
+    left: 823px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.uploadMarkSheet {
+    position: absolute;
+    top: 81.32%;
+    left: 14.42%;
+    font-weight: 300;
+    color: #000;
+}
+.text37 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 82.59%;
+    left: 25.88%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild50 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 82.13%;
+    right: 51.19%;
+    bottom: 16.95%;
+    left: 14.55%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clickToUploadContainer3 {
+    position: absolute;
+    top: 4488px;
+    left: 231px;
+}
+.sizeLessThanContainer5 {
+    position: absolute;
+    top: 83.25%;
+    left: 222px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.uploadIncomeCertificate {
+    position: absolute;
+    top: 84.39%;
+    left: 14.55%;
+    font-weight: 300;
+    color: #000;
+}
+.text38 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 85.65%;
+    left: 26.02%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild51 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 85.2%;
+    right: 51.06%;
+    bottom: 13.89%;
+    left: 14.68%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clickToUploadContainer4 {
+    position: absolute;
+    top: 4655px;
+    left: 233px;
+}
+.sizeLessThanContainer6 {
+    position: absolute;
+    top: 86.31%;
+    left: 224px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.verifiedByAnyContainer {
+    position: absolute;
+    top: 86.99%;
+    left: 224px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.uploadPaymentReceipt {
+    position: absolute;
+    top: 81.4%;
+    left: 54.43%;
+    font-weight: 300;
+    color: #000;
+}
+.text39 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 82.66%;
+    left: 65.9%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild52 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 82.21%;
+    right: 11.18%;
+    bottom: 16.88%;
+    left: 54.56%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.clickToUploadContainer5 {
+    position: absolute;
+    top: 4492px;
+    left: 836px;
+}
+.sizeLessThanContainer7 {
+    position: absolute;
+    top: 83.32%;
+    left: 827px;
+    font-size: 18px;
+    color: #ff0000;
+}
+.selectState {
+    position: absolute;
+    top: 31.96%;
+    left: 52.58%;
+    font-weight: 300;
+    color: #000;
+}
+.selectDistrict {
+    position: absolute;
+    top: 31.96%;
+    left: 13.82%;
+    font-weight: 300;
+    color: #000;
+}
+.text40 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 33.22%;
+    left: 54.13%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text41 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 33.22%;
+    left: 15.37%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild53 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 32.67%;
+    right: 13.03%;
+    bottom: 66.41%;
+    left: 52.58%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild54 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 32.67%;
+    right: 51.92%;
+    bottom: 66.41%;
+    left: 13.82%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.durationOfCoursein {
+    position: absolute;
+    top: 38.98%;
+    left: 13.96%;
+    font-weight: 300;
+    color: #000;
+}
+.i16 {
+    position: absolute;
+    top: 2184px;
+    left: 228px;
+    font-weight: 300;
+}
+.applicationChild55 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 39.85%;
+    right: 51.92%;
+    bottom: 59.24%;
+    left: 13.82%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.inRupeesfromAll {
+    font-weight: 100;
+}
+.totalIncomeOfContainer {
+    position: absolute;
+    width: 34.39%;
+    top: 38.62%;
+    left: 52.91%;
+    color: #000;
+    display: inline-block;
+}
+.applicationChild56 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 39.9%;
+    right: 12.7%;
+    bottom: 59.18%;
+    left: 52.91%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i17 {
+    position: absolute;
+    top: 2186px;
+    left: 811px;
+    font-weight: 300;
+}
+.name {
+    position: absolute;
+    top: 1792px;
+    left: 220px;
+    font-weight: 300;
+}
+.nameOfPresent {
+    position: absolute;
+    top: 34.34%;
+    left: 52.58%;
+    font-weight: 300;
+    color: #000;
+}
+.nameOfInstitution {
+    position: absolute;
+    top: 34.34%;
+    left: 13.82%;
+    font-weight: 300;
+    color: #000;
+}
+.text42 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 35.61%;
+    left: 54.13%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text43 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 35.61%;
+    left: 15.37%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild57 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 35.06%;
+    right: 13.03%;
+    bottom: 64.02%;
+    left: 52.58%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild58 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 37.09%;
+    right: 51.79%;
+    bottom: 61.99%;
+    left: 13.82%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.disciplineOfCourse {
+    position: absolute;
+    top: 36.38%;
+    left: 13.82%;
+    font-weight: 300;
+    color: #000;
+}
+.applicationChild60 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.39%;
+    top: 37.09%;
+    right: 12.7%;
+    bottom: 61.99%;
+    left: 52.91%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.dateOfAdmission {
+    position: absolute;
+    top: 36.38%;
+    left: 52.91%;
+    font-weight: 300;
+    color: #000;
+}
+.applicationChild62 {
+    position: absolute;
+    height: 0.92%;
+    width: 34.26%;
+    top: 35.06%;
+    right: 51.92%;
+    bottom: 64.02%;
+    left: 13.82%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.name1 {
+    position: absolute;
+    top: 1922px;
+    left: 220px;
+    font-weight: 300;
+}
+.applicationChild63 {
+    position: absolute;
+    top: 2289px;
+    left: calc(50% - 545px);
+    width: 1096px;
+    height: 4.9px;
+    object-fit: contain;
+}
+.applicationChild64 {
+    position: absolute;
+    top: 2860px;
+    left: calc(50% - 548px);
+    width: 1096px;
+    height: 4.9px;
+    object-fit: contain;
+}
+.ifscCode {
+    position: absolute;
+    top: 64.06%;
+    left: 15.15%;
+    font-weight: 300;
+    color: #000;
+}
+.branchName {
+    position: absolute;
+    width: 13.96%;
+    top: 64.06%;
+    left: 66.01%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.acNo {
+    position: absolute;
+    top: 66.56%;
+    left: 15.15%;
+    font-weight: 300;
+    color: #000;
+}
+.text44 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 67.82%;
+    left: 52.21%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text45 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 65.33%;
+    left: 55.05%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.text46 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 67.82%;
+    left: 16.69%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild65 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 64.78%;
+    right: 63.29%;
+    bottom: 34.31%;
+    left: 15.15%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild66 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.89%;
+    top: 64.78%;
+    right: 12.1%;
+    bottom: 34.31%;
+    left: 66.01%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild67 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 67.27%;
+    right: 63.29%;
+    bottom: 31.81%;
+    left: 15.15%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.parnab3 {
+    position: absolute;
+    top: 3542px;
+    left: 240px;
+    font-weight: 300;
+}
+.nameOfBank {
+    position: absolute;
+    width: 12.5%;
+    top: 64.06%;
+    left: 40.81%;
+    font-weight: 300;
+    color: #000;
+    display: inline-block;
+}
+.applicationChild68 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.49%;
+    top: 64.78%;
+    right: 37.7%;
+    bottom: 34.31%;
+    left: 40.81%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.kumar3 {
+    position: absolute;
+    top: 3542px;
+    left: 632px;
+    display: inline-block;
+    font-weight: 300;
+    width: 91px;
+}
+.bagchi4 {
+    position: absolute;
+    top: 3542px;
+    left: 1014px;
+    display: inline-block;
+    font-weight: 300;
+    width: 102px;
+}
+.selectOccupation2 {
+    position: absolute;
+    top: 3678px;
+    left: 240px;
+}
+.mircCode {
+    position: absolute;
+    top: 66.56%;
+    left: 66.14%;
+    font-weight: 300;
+    color: #000;
+}
+.text47 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 67.82%;
+    left: 69.4%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild69 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 67.27%;
+    right: 12.3%;
+    bottom: 31.81%;
+    left: 66.14%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i18 {
+    position: absolute;
+    top: 3683px;
+    left: 1010px;
+    font-weight: 300;
+}
+.branchCode {
+    position: absolute;
+    top: 66.57%;
+    left: 40.41%;
+    font-weight: 300;
+    color: #000;
+}
+.text48 {
+    position: absolute;
+    height: 0.37%;
+    width: 8.26%;
+    top: 67.84%;
+    left: 43.68%;
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.applicationChild70 {
+    position: absolute;
+    height: 0.92%;
+    width: 21.56%;
+    top: 67.29%;
+    right: 38.03%;
+    bottom: 31.79%;
+    left: 40.41%;
+    border-radius: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.i19 {
+    position: absolute;
+    top: 3684px;
+    left: 621px;
+    font-weight: 300;
+}
+.vectorIcon4 {
+    position: absolute;
+    height: 0.13%;
+    width: 0.93%;
+    top: 67.67%;
+    right: 65.21%;
+    bottom: 32.21%;
+    left: 33.86%;
+    border-radius: 0.3px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.applicationChild71 {
+    position: absolute;
+    top: 3418px;
+    left: calc(50% - 537px);
+    width: 1096px;
+    height: 4.9px;
+    object-fit: contain;
+}
+.applicationChild72 {
+    position: absolute;
+    top: 3930px;
+    left: calc(50% - 548px);
+    width: 1096px;
+    height: 4.9px;
+    object-fit: contain;
+}
+.whiteNavigationChild {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+.apply {
+    position: absolute;
+    top: 34.67%;
+    left: 41.27%;
+    font-weight: 500;
+    color: #c3ad00;
+}
+.home {
+    position: absolute;
+    top: 34.67%;
+    left: 34.39%;
+    font-weight: 500;
+}
+.about {
+    position: absolute;
+    top: 34.67%;
+    left: 47.95%;
+    font-weight: 500;
+}
+.help {
+    position: absolute;
+    top: 34.67%;
+    left: 54.83%;
+    font-weight: 500;
+}
+.contact {
+    position: absolute;
+    top: 34.67%;
+    left: 60.91%;
+    font-weight: 500;
+}
+.logIn {
+    position: relative;
+    font-weight: 500;
+}
+.logInWrapper {
+    position: absolute;
+    height: 57.33%;
+    width: 11.24%;
+    top: 21.33%;
+    right: 8.47%;
+    bottom: 21.33%;
+    left: 80.29%;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1.8px solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+}
+.whiteNavigation {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1512px;
+    height: 75px;
+    font-size: 20px;
+    color: #000;
+}
+.application {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 5451px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #6e6e6e;
+    font-family: Roboto;
+}
+
