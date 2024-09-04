@@ -6,8 +6,8 @@
 body {
   font-family: "Roboto", sans-serif;
   margin-top: 6%;
-}
-.container {
+} 
+.sign-container {
   display: flex;
   flex-direction: row;
   min-height: 30rem;
@@ -16,7 +16,7 @@ body {
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 0.9rem;
 }
-.left {
+.sign-left {
   float: left;
   min-width: 250px;
   background: linear-gradient(
@@ -30,12 +30,12 @@ body {
   align-items: center;
   border-radius: 0.9rem 0 0 0.9rem;
 }
-.left p {
-  font-size: 25px;
+.sign-left p {
+  font-size: 1.563rem;
   font-weight: 500;
   color: #fff;
 }
-.right {
+.sign-right {
   width: 100%;
   float: right;
   display: flex;
@@ -44,72 +44,57 @@ body {
   align-items: center;
   text-align: center;
 }
-.upper {
+.sign-upper {
   font-weight: 400;
   h1 {
     font-family: DM Serif Display;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   p {
-    font-size: 17px;
+    font-size: 1.063rem;
     color: #a0a0a0;
-    padding: 5px 0;
+    padding: 0.313rem 0;
   }
 }
-.lower {
-  margin-top: 2.8rem;
+.sign-lower .sign-input-container{
+  display: flex;
+  flex-direction: row;
 }
-.input-container {
+.sign-inner-container{
   display: flex;
   flex-direction: column;
-  margin: 1.25rem 0;
-  font-style: italic;
-  label {
-    font-size: 17px;
-    font-weight: 300;
-    color: #000;
-    text-align: left;
-    font-style: normal;
-  }
-  input {
-    min-height: 2.7rem;
-    min-width: 23rem;
-    border: 1px solid #b5b5b5;
-    border-radius: 5px;
-    margin-top: 0.2rem;
-    padding: 0 0.7rem;
-    font-size: 17px;
-    font-weight: 300;
-    color: #6e6e6e;
-  }
-  a{
-    text-decoration: none;
-    color: #000;
-    font-weight: 300;
-    font-size: 0.9rem;
-    text-align: right;
-    margin: 0.5rem 0.2rem;
-  }
-  a:hover{
-    text-decoration: underline;
-  }
+  margin: 0.938rem 1.125rem;
 }
-.right .btn-container .btn {
+.sign-inner-container label{
+  text-align: left;
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+.sign-inner-container input{
+  width: 17rem;
+  padding: 0.75rem;
+  border: 1px solid #a0a0a0;
+  border-radius: 0.313rem;
+  color: #6E6E6E;
+  font-size: 1.063rem;
+} 
+.sign-right .sign-btn-container .btn {
   background: linear-gradient(
     276.31deg,
     #eeb711 -25.96%,
     rgba(255, 193, 7, 0.15) 180.24%
   );
   border: none;
-  min-height: 2.7rem;
-  min-width: 23rem;
+  width: 17rem;
+  padding: 0.75rem;
   color: #fff;
-  border-radius: 0.25rem;
+  border-radius: 0.313rem;
   font-size: 1.15rem;
   font-weight: 400;
+  margin-top: 0.938rem;
 }
-.link-container {
-  margin-top: 1rem;
+.sign-log-container {
+  margin-top: 0.938rem;
   font-size: 0.938rem;
   font-style: italic;
   display: flex;

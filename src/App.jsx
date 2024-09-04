@@ -1,5 +1,5 @@
 import React from "react";
-// import { useNavigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/Navbar/NavBar";
 import Home from "./components/Navbar/Pages/Home";
@@ -8,16 +8,11 @@ import Contact from "./components/Navbar/Pages/Contact";
 import About from "./components/Navbar/Pages/About";
 import Help from "./components/Navbar/Pages/Help";
 import Login from "./components/LogIn/login";
-import Forgot from "./components/LogIn/forgot";
-import Sign from "./components/LogIn/Signup";
+import Sign from "./components/Signup/Sign";
+import Forget from "./components/ForgetPassword/Password"
 import Footer from "./components/Footer/Footer";
-import { Routes, Route } from "react-router-dom";
 
 const App = () => {
-  // const navigate = useNavigate();
-  // const handleClick = () => {
-  //   navigate("/signup");
-  // };
   return (
     <>
       <Routes>
@@ -27,6 +22,7 @@ const App = () => {
             <>
               <NavBar />
               <Home />
+              <Footer />
             </>
           }
         />
@@ -45,6 +41,7 @@ const App = () => {
             <>
               <NavBar />
               <About />
+              <Footer />
             </>
           }
         />
@@ -54,6 +51,7 @@ const App = () => {
             <>
               <NavBar />
               <Help />
+              <Footer />
             </>
           }
         />
@@ -63,6 +61,7 @@ const App = () => {
             <>
               <NavBar />
               <Contact />
+              <Footer />
             </>
           }
         />
@@ -70,13 +69,27 @@ const App = () => {
           path="/login"
           element={
             <>
-              <NavBar />
               <Login />
             </>
           }
         />
+        <Route
+          path="/signup"
+          element={
+            <>
+              <Sign />
+            </>
+          }
+        />
+        <Route 
+        path="/forget"
+        element={
+          <>
+          <Forget />
+          </>
+        }
+        />
       </Routes>
-      <Footer />
     </>
   );
 };

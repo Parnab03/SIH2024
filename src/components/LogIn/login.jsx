@@ -1,5 +1,5 @@
-import React from "react"; 
-// import { Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import "./login.css";
 
 const Login = () => {
@@ -28,14 +28,14 @@ const Login = () => {
               <div className="input-container">
                 <label htmlFor="password">Password</label>
                 <input type="password" id="password" name="password" />
-                {/* <Link to="/forgot">Forgot Password?</Link> */}
+                <Link to="/forget">I forgot my password</Link>
               </div>
               <div className="btn-container">
                 <button className="btn">Log In</button>
               </div>
-              <div className="sign-container">
+              <div className="link-container">
                 <p>Don't have an account?</p>
-                {/* <Link to="/signup">Sign Up</Link> */}
+                <Link to="/signup">Sign Up</Link>
               </div>
             </form>
           </div>
