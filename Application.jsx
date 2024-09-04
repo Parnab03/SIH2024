@@ -5,7 +5,7 @@ function Application() {
   return (
     <>
       <div>
-        <h1>Application Form</h1>
+        <h1 style={{textAlign: "center"}} >Application Form</h1>
 
         {/* First Row */}
       </div>
@@ -24,28 +24,22 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-
         {/* Second Row  */}
-
-        <div>
-          <div className={styles.firstdiv}>
-            <div className={styles.first}>
-              <p>Gender</p>
-              <input type="text" name="firstName" className={styles.inputbox} />
-            </div>
-            <div className={styles.first}>
-              <p>Date of Birth</p>
-              <input type="text" name="date" className={styles.inputbox} />
-            </div>
-            <div className={styles.first}>
-              <p>Student ID</p>
-              <input type="text" name="firstName" className={styles.inputbox} />
-            </div>
+        <div className={styles.datediv}>
+          <div className={styles.dateinputbox}>
+            <p>Gender</p>
+            <input type="text" name="firstName" className={styles.inputbox} />
+          </div>
+          <div className={styles.dateinputbox}>
+            <p>Date Of Birth</p>
+            <input type="date" name="firstName" className={styles.inputbox} />
+          </div>
+          <div className={styles.dateinputbox}>
+            <p>Student ID</p>
+            <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-
         {/* Third Row */}
-
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>Nationality</p>
@@ -56,13 +50,30 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
           <div className={styles.first}>
-            <p>AAdhaar ID</p>
+            <p>Adhaar ID</p>
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-
         {/* Fourth Row */}
-
+        <div className={styles.seconddiv}>
+          <div className={styles.second}>
+            <p>Permanent Home Address</p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+          <div className={styles.second}>
+            <p>District/Region</p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+        </div>
+        {/* Fifth Row */}
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>Mobile Number</p>
@@ -77,24 +88,10 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-
-      {/* Fifth Row */}
-
-      <form action="styles.altercontainer">
-        <div className={styles.seconddiv}>
-          <div className={styles.second}>
-            <p>Permanent Home Address</p>
-            <input type="text" name="firstName" className={styles.inputbox} />
-          </div>
-          <div className={styles.second}>
-            <p>District/Region</p>
-            <input type="text" name="firstName" className={styles.inputbox} />
-          </div>
-        </div>
-      </form>
-      <Hr />
-      <form action="styles.altercontainer">
+        <Hr />
+        {/* * Details of Last Eligible Qualifying
+        Board/Council/College/University Examination for Scholarship */}
+        {/* first row */}
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>Name of qualifying public examination</p>
@@ -105,18 +102,14 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-
-      <form action="styles.altercontainer">
+        {/* second row */}
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>Year of qualifying examination</p>
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-
-      <form action="styles.altercontainer">
+        {/* third row */}
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>
@@ -126,9 +119,7 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-
-      <form action="styles.altercontainer">
+        {/* fourth row */}
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>
@@ -138,8 +129,7 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <form action="" className={styles.maincontainer}>
+        {/* fifth row */}
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>Total marks obtain</p>
@@ -154,16 +144,108 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <p id="important">
-        * Details of Last Eligible Qualifying Board/Council/College/University
-        Examination for Scholarship
-      </p>
-      <Hr />
+        <p id="important">
+          * Details of Last Eligible Qualifying Board/Council/College/University
+          Examination for Scholarship
+        </p>
+        <Hr />
 
-      {/* personal details */}
+        {/* * Present Course of Study */}
 
-      <form action="" className={styles.maincontainer}>
+        {/* first row */}
+
+        <div className={styles.seconddiv}>
+          <div className={styles.second}>
+            <p>Select District</p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+          <div className={styles.second}>
+            <p>Select State</p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+        </div>
+
+        {/* second row */}
+
+        <div className={styles.seconddiv}>
+          <div className={styles.second}>
+            <p>Name Of Institution</p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+          <div className={styles.second}>
+            <p>Name of Present Course</p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+        </div>
+
+        {/* third row */}
+
+        <div className={styles.seconddiv}>
+          <div className={styles.second}>
+            <p>Discipline of Course</p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+          <div className={styles.second}>
+            <p>Date Of Admission</p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+        </div>
+
+        {/* fourth row */}
+
+        <div className={styles.seconddiv}>
+          <div className={styles.second}>
+            <p>Duration of Course(In years) </p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+          <div className={styles.second}>
+            <p>
+              Total income of family(in rupees,from all sources for the period
+              from JAN,2024)
+            </p>
+            <input
+              type="text"
+              name="firstName"
+              className={styles.secondinputbox}
+            />
+          </div>
+        </div>
+
+        <p>* Present Course of Study</p>
+        <Hr />
+
+        {/* Personal Details  */}
+
+        {/* first row */}
+
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>Father's Name</p>
@@ -178,9 +260,9 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
 
-      <form action="" className={styles.maincontainer}>
+        {/* second row */}
+
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>Occupation of Guardian</p>
@@ -195,8 +277,9 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <form action="styles.altercontainer">
+
+        {/* third row */}
+
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>Wheather differently Able</p>
@@ -207,11 +290,14 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <Hr />
-      {/* Permanent Address */}
 
-      <form action="" className={styles.maincontainer}>
+        <p>* Personal Details</p>
+        <Hr />
+
+        {/* Permanent Address */}
+
+        {/* First Row  */}
+
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>House no</p>
@@ -226,8 +312,9 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <form action="" className={styles.maincontainer}>
+
+        {/* Second Row  */}
+
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>Post Office</p>
@@ -242,21 +329,23 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
 
-      <form action="styles.altercontainer">
+        {/* Third Row  */}
+
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>State </p>
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <p>*Permanent Address </p>
-      <Hr />
 
-      {/* Bank Account Details */}
-      <form action="" className={styles.maincontainer}>
+        <p>*Permanent Address </p>
+        <Hr />
+
+        {/* Bank Details  */}
+
+        {/* First Row  */}
+
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>IFSC Code</p>
@@ -271,8 +360,9 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <form action="" className={styles.maincontainer}>
+
+        {/* Second Row  */}
+
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>A/C no.</p>
@@ -287,22 +377,22 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
 
-      <form action="styles.altercontainer">
+        {/* Third Row  */}
+
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>Upload Bank Passbook (First page) </p>
             <input type="file" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <p>*Bank Details </p>
-      <Hr />
 
-      {/* Upload Section */}
+        <p>*Bank Details </p>
+        <Hr />
 
-      <form action="styles.altercontainer">
+        {/* Upload Section  */}
+        {/* First Row  */}
+
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>Upload Photograph</p>
@@ -313,9 +403,9 @@ function Application() {
             <input type="file" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
 
-      <form action="styles.altercontainer">
+        {/* Second Row  */}
+
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>Upload Aadhaar Card</p>
@@ -326,9 +416,9 @@ function Application() {
             <input type="file" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
 
-      <form action="styles.altercontainer">
+        {/* Third Row  */}
+
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>Upload Mark sheet (Last qualifying exam)</p>
@@ -339,19 +429,19 @@ function Application() {
             <input type="file" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
 
-      <form action="styles.altercontainer">
+        {/* Fourth Row  */}
+
         <div className={styles.seconddiv}>
           <div className={styles.second}>
             <p>Upload Income Certificate </p>
             <input type="file" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-      </form>
-      <div className={styles.Submitbutton}>
+
+        {/* Submit button  */}
         <Submitbutton />
-      </div>
+      </form>
     </>
   );
 }
