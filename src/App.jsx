@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/Navbar/NavBar";
 import Home from "./components/Navbar/Pages/Home";
@@ -11,86 +11,72 @@ import Login from "./components/LogIn/login";
 import Forgot from "./components/LogIn/forgot";
 import Sign from "./components/LogIn/Signup";
 import Footer from "./components/Footer/Footer";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: (
-        <>
-          <NavBar />
-          <Home />
-        </>
-      ),
-    },
-    {
-      path: "/apply",
-      element: (
-        <>
-          <NavBar />
-          <Apply />
-        </>
-      ),
-    },
-    {
-      path: "/about",
-      element: (
-        <>
-          <NavBar />
-          <About />
-        </>
-      ),
-    },
-    {
-      path: "/help",
-      element: (
-        <>
-          <NavBar />
-          <Help />
-        </>
-      ),
-    },
-    {
-      path: "/contact",
-      element: (
-        <>
-          <NavBar />
-          <Contact />
-        </>
-      ),
-    },
-    {
-      path: "/login",
-      element: (
-        <>
-          <NavBar />
-          <Login />
-        </>
-      ),
-    },
-    {
-      path: "/forgot",
-      element: (
-        <>
-          <Forgot />
-        </>
-      ),
-    },
-    {
-      path: "/signup",
-      element: (
-        <>
-          <Sign />
-        </>
-      ),
-    }
-  ]);
-
+  // const navigate = useNavigate();
+  // const handleClick = () => {
+  //   navigate("/signup");
+  // };
   return (
     <>
-      <Login />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <NavBar />
+              <Home />
+            </>
+          }
+        />
+        <Route
+          path="/apply"
+          element={
+            <>
+              <NavBar />
+              <Apply />
+            </>
+          }
+        />
+        <Route
+          path="/about"
+          element={
+            <>
+              <NavBar />
+              <About />
+            </>
+          }
+        />
+        <Route
+          path="/help"
+          element={
+            <>
+              <NavBar />
+              <Help />
+            </>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <>
+              <NavBar />
+              <Contact />
+            </>
+          }
+        />
+        <Route
+          path="/login"
+          element={
+            <>
+              <NavBar />
+              <Login />
+            </>
+          }
+        />
+      </Routes>
       <Footer />
-      <RouterProvider router={router} />
     </>
   );
 };
