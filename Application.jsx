@@ -5,7 +5,7 @@ function Application() {
   return (
     <>
       <div>
-        <h1 style={{textAlign: "center"}} >Application Form</h1>
+        <h1 style={{ textAlign: "center" }}>Application Form</h1>
 
         {/* First Row */}
       </div>
@@ -40,7 +40,7 @@ function Application() {
           </div>
         </div>
         {/* Third Row */}
-        <div className={styles.firstdiv}>
+        <div className={styles.thirddiv}>
           <div className={styles.first}>
             <p>Nationality</p>
             <input type="text" name="firstName" className={styles.inputbox} />
@@ -73,7 +73,7 @@ function Application() {
             />
           </div>
         </div>
-        {/* Fifth Row */}
+        {/* /* Fifth Row */}
         <div className={styles.firstdiv}>
           <div className={styles.first}>
             <p>Mobile Number</p>
@@ -88,9 +88,11 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
+        <p style={{ paddingRight: "73%" }}>
+          <span style={{ color: "red" }}> * </span>Basic details
+        </p>
         <Hr />
-        {/* * Details of Last Eligible Qualifying
-        Board/Council/College/University Examination for Scholarship */}
+        {/* /* Details of Last Eligible Qualifying Board/Council/College/University Examination for Scholarship */}
         {/* first row */}
         <div className={styles.seconddiv}>
           <div className={styles.second}>
@@ -144,9 +146,10 @@ function Application() {
             <input type="text" name="firstName" className={styles.inputbox} />
           </div>
         </div>
-        <p id="important">
-          * Details of Last Eligible Qualifying Board/Council/College/University
-          Examination for Scholarship
+        <p style={{ paddingRight: "34%" }}>
+          <span style={{ color: "red" }}> * </span> Details of Last Eligible
+          Qualifying Board/Council/College/University Examination for
+          Scholarship
         </p>
         <Hr />
 
@@ -239,7 +242,9 @@ function Application() {
           </div>
         </div>
 
-        <p>* Present Course of Study</p>
+        <p style={{ paddingRight: "68%" }}>
+          <span style={{ color: "red" }}> * </span> Present Course of Study
+        </p>
         <Hr />
 
         {/* Personal Details  */}
@@ -291,7 +296,9 @@ function Application() {
           </div>
         </div>
 
-        <p>* Personal Details</p>
+        <p style={{ paddingRight: "71%" }}>
+          <span style={{ color: "red" }}> *</span> Personal Details
+        </p>
         <Hr />
 
         {/* Permanent Address */}
@@ -339,7 +346,9 @@ function Application() {
           </div>
         </div>
 
-        <p>*Permanent Address </p>
+        <p style={{ paddingRight: "70%" }}>
+          <span style={{ color: "red" }}> * </span>Permanent Address{" "}
+        </p>
         <Hr />
 
         {/* Bank Details  */}
@@ -384,10 +393,15 @@ function Application() {
           <div className={styles.second}>
             <p>Upload Bank Passbook (First page) </p>
             <input type="file" name="firstName" className={styles.inputbox} />
+            <p>
+              <span style={{ color: "red" }}> * </span> Size Less Than 60 kb
+            </p>
           </div>
         </div>
 
-        <p>*Bank Details </p>
+        <p style={{ paddingRight: "73%" }}>
+          <span style={{ color: "red" }}> * </span>Bank Details{" "}
+        </p>
         <Hr />
 
         {/* Upload Section  */}
@@ -397,10 +411,16 @@ function Application() {
           <div className={styles.second}>
             <p>Upload Photograph</p>
             <input type="file" name="firstName" className={styles.inputbox} />
+            <p>
+              <span style={{ color: "red" }}> * </span> Size Less Than 150 kb
+            </p>
           </div>
           <div className={styles.second}>
             <p>Upload Signature</p>
             <input type="file" name="firstName" className={styles.inputbox} />
+            <p>
+              <span style={{ color: "red" }}> * </span> Size Less Than 100 kb
+            </p>
           </div>
         </div>
 
@@ -410,10 +430,16 @@ function Application() {
           <div className={styles.second}>
             <p>Upload Aadhaar Card</p>
             <input type="file" name="firstName" className={styles.inputbox} />
+            <p>
+              <span style={{ color: "red" }}> * </span> Size Less Than 150 kb
+            </p>
           </div>
           <div className={styles.second}>
             <p>Upload Domicile certificate</p>
             <input type="file" name="firstName" className={styles.inputbox} />
+            <p>
+              <span style={{ color: "red" }}> * </span> Size Less Than 150 kb
+            </p>
           </div>
         </div>
 
@@ -423,10 +449,16 @@ function Application() {
           <div className={styles.second}>
             <p>Upload Mark sheet (Last qualifying exam)</p>
             <input type="file" name="firstName" className={styles.inputbox} />
+            <p>
+              <span style={{ color: "red" }}> * </span> Size Less Than 100 kb
+            </p>
           </div>
           <div className={styles.second}>
             <p>Upload Payment Receipt</p>
             <input type="file" name="firstName" className={styles.inputbox} />
+            <p>
+              <span style={{ color: "red" }}> * </span> Size Less Than 100 kb
+            </p>
           </div>
         </div>
 
@@ -436,6 +468,9 @@ function Application() {
           <div className={styles.second}>
             <p>Upload Income Certificate </p>
             <input type="file" name="firstName" className={styles.inputbox} />
+            <p>
+              <span style={{ color: "red" }}> * </span> Size Less Than 0 kb
+            </p>
           </div>
         </div>
 
