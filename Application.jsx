@@ -702,6 +702,9 @@ function Application ()  {
             left: "50%",
             height: "40px",
             marginLeft: "45%",
+            color: "white",
+            background: "linear-gradient(to bottom,  #EFB506, #FFC107)",
+            borderRadius: "8px",
           }}
         >
           Submit

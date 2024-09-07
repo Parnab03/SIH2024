@@ -5,9 +5,10 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: roboto;
   /* background-color: #f4f4f4; */
   padding: 40px;
+  font-size: larger;
 }
 
 h1 {
