@@ -9,7 +9,8 @@ import About from "./components/Navbar/Pages/About";
 import Help from "./components/Navbar/Pages/Help";
 import Login from "./components/LogIn/login";
 import Sign from "./components/Signup/Sign";
-import Forget from "./components/ForgetPassword/Password"
+import Forget from "./components/ForgetPassword/Password";
+import Dash from "./components/Dashboard/Dashboard";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
@@ -81,13 +82,23 @@ const App = () => {
             </>
           }
         />
-        <Route 
-        path="/forget"
-        element={
-          <>
-          <Forget />
-          </>
-        }
+        <Route
+          path="/forget"
+          element={
+            <>
+              <Forget />
+            </>
+          }
+        />
+        <Route
+          path="/dashboard"
+          element={
+            <>
+              <NavBar />
+              <Dash />
+              <Footer />
+            </>
+          }
         />
       </Routes>
     </>

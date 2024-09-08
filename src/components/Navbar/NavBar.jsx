@@ -4,7 +4,11 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav>
+    <div className="nav-container">
+      <div className="middle-nav">
+        div
+      </div>
+      <nav>
       <ul>
         <li>
           <NavLink className={ (e) => {return e.isActive ? "true" : ""}} to="/">Home</NavLink>
@@ -21,6 +25,9 @@ const NavBar = () => {
         <li>
           <NavLink className={ (e) => {return e.isActive ? "true" : ""}} to="/contact">Contact</NavLink>
         </li>
+        <li>
+          <NavLink className={ (e) => {return e.isActive ? "true" : ""}} to="/dashboard">Profile</NavLink>
+        </li>
       </ul>
       <div className="btn-container">
         <NavLink to="/login">
@@ -28,6 +35,7 @@ const NavBar = () => {
         </NavLink>
       </div>
     </nav>
+    </div>
   );
 };
 
