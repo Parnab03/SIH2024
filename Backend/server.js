@@ -10,7 +10,8 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000;
 
 const corsOptions = {
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://sih-2024-pmsss.vercel.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
 };

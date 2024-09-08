@@ -75,7 +75,8 @@ function Application() {
         console.log(applicationData);
         try {
             const response = await fetch(
-                "http://localhost:3000/application/apply",
+                // "http://localhost:3000/application/apply",
+                "https://sih-2024-pmsss.vercel.app/application/apply",
                 {
                     method: "POST",
                     headers: {
