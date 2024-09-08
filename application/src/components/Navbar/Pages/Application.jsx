@@ -75,8 +75,8 @@ function Application() {
         console.log(applicationData);
         try {
             const response = await fetch(
-                // "http://localhost:3000/application/apply",
-                "https://pmsss-backend.onrender.com/application/apply",
+                "http://localhost:3000/application/apply",
+                // "https://pmsss-backend.onrender.com/application/apply",
                 {
                     method: "POST",
                     headers: {
