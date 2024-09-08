@@ -25,8 +25,7 @@ const SignUp = () => {
         console.log(user);
         try {
             const response = await fetch(
-                // "http://localhost:3000/person/signup",
-                "https://sih-2024-pmsss.vercel.app/person/signup",
+                "http://localhost:3000/person/signup",
                 {
                     method: "POST",
                     headers: {
