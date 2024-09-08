@@ -25,7 +25,8 @@ const SignUp = () => {
         console.log(user);
         try {
             const response = await fetch(
-                "http://localhost:3000/person/signup",
+                // "http://localhost:3000/person/signup",
+                "https://pmsss-backend.onrender.com/person/signup",
                 {
                     method: "POST",
                     headers: {
