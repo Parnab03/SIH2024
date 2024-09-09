@@ -1,13 +1,14 @@
 import React from "react";
 import "./NavBar.css";
+// import AICTE from "./components/Assets/AICTE-logo.jpeg";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className="nav-container">
-      <div className="middle-nav">
-        div
-      </div>
+      {/* <div className="middle-nav">
+        <img src={AICTE} alt="logo" />
+      </div> */}
       <nav>
       <ul>
         <li>
