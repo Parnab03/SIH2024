@@ -1,15 +1,16 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
-}
+    box-sizing: border-box;
+} */
 
 body {
     font-family: roboto;
 }
 .banner {
-    background: url("../assets/background.jpeg") no-repeat center center/cover;
+    background: url("../assets/background.png") no-repeat center /cover;
     height: 100vh;
+    width:100vw;
     display: flex;
     justify-content: left;
     /* align-items: ""; */
@@ -17,9 +18,11 @@ body {
     padding: 0 8%;
 }
 .banner-content {
-    text-align: left;
     color: white;
     margin-top: 7%;
+    h1{
+        text-align: left;
+    }
 }
 
 .banner h1 {
@@ -114,6 +117,10 @@ body {
     line-height: 1.5;
     text-align: left;
 }
+.Requirment{
+    display: grid;
+    place-items: center;
+}
 .requirements-section {
     text-align: center;
     padding: 2rem 1rem;
@@ -158,9 +165,15 @@ body {
     font-size: 1rem;
     line-height: 1.5;
 }
-
+.degree{
+    width: 80%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+}
 .degree img {
     text-align: center;
     height: 100%;
-    width: 100%;
+    width: 80%;
+    
 }

@@ -7,19 +7,64 @@ const NavBar = () => {
     <nav>
       <ul>
         <li>
-          <NavLink className={ (e) => {return e.isActive ? "true" : ""}} to="/">Home</NavLink>
+          <NavLink
+            className={(e) => {
+              return e.isActive ? "true" : "";
+            }}
+            to="/"
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink className={ (e) => {return e.isActive ? "true" : ""}} to="/apply">Apply</NavLink>
+          <NavLink
+            className={(e) => {
+              return e.isActive ? "true" : "";
+            }}
+            to="/apply"
+          >
+            Apply
+          </NavLink>
         </li>
         <li>
-          <NavLink className={ (e) => {return e.isActive ? "true" : ""}} to="/about">About</NavLink>
+          <NavLink
+            className={(e) => {
+              return e.isActive ? "true" : "";
+            }}
+            to="/about"
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink className={ (e) => {return e.isActive ? "true" : ""}} to="/help">Help</NavLink>
+          <NavLink
+            className={(e) => {
+              return e.isActive ? "true" : "";
+            }}
+            to="/help"
+          >
+            Help
+          </NavLink>
         </li>
         <li>
-          <NavLink className={ (e) => {return e.isActive ? "true" : ""}} to="/contact">Contact</NavLink>
+          <NavLink
+            className={(e) => {
+              return e.isActive ? "true" : "";
+            }}
+            to="/contact"
+          >
+            Contact
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            className={(e) => {
+              return e.isActive ? "true" : "";
+            }}
+            to="/profile"
+          >
+            Profile
+          </NavLink>
         </li>
       </ul>
       <div className="btn-container">

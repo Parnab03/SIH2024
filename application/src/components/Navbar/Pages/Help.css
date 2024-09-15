@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 body{
     font-family: roboto;
 }
@@ -58,25 +58,28 @@ body{
   border-radius: 5px;
   cursor: pointer;
 }
-.details{
+help .details{
     display: none;
     max-width: 100%;
 }
-summary{
+.helpcard summary{
     font-size: 1.3rem;
     font-weight: bold
 }
-p{
+.helpcard p{
     font-size: 1rem;
     margin-top: 1%;
 }
 #faq{
     padding: 0 6%;
+    h1{
+        align-items: left;
+    }
 }
-img{
+/* img{
     width: 30%;
     height: 30%;
-}
+} */
 .lasthelp{
     /* display: flex; */
     justify-content: center;
