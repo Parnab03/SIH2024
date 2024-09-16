@@ -1,3 +1,6 @@
+body {
+  font-family: "Roboto", sans-serif;
+} 
 .sign-container {
   display: flex;
   flex-direction: row;
@@ -28,7 +31,6 @@
 }
 .sign-right {
   width: 100%;
-  float: right;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,6 +47,7 @@
     font-size: 1.063rem;
     color: #a0a0a0;
     padding: 0.313rem 0;
+    text-align: center;
   }
 }
 .sign-lower .sign-input-container{
@@ -54,7 +57,7 @@
 .sign-inner-container{
   display: flex;
   flex-direction: column;
-  margin: 0.938rem 1.125rem;
+  margin: 0.5rem 1.125rem;
 }
 .sign-inner-container label{
   text-align: left;
@@ -90,6 +93,7 @@
   font-style: italic;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.5rem;
   p {
     font-weight: 300;

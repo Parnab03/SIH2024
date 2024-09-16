@@ -1,8 +1,8 @@
 import React from "react";
 import "./Dashboard.css";
-// import profileLogo from './components/Assets/Profile.png';
+import Profile from '../Dashboard/Assets/Profile.png';
 
-const Dash = () => {
+const Dashboard = () => {
   return (
     <div className="main-container">
       <div className="profile-container">
@@ -12,13 +12,12 @@ const Dash = () => {
             <p>Details of Applications</p>
           </div>
           <div className="profile-left-middle">
-            {/* <img src=" "  alt="Profile-Photo" /> */}
-            <span></span>
+            <img src={Profile} alt="Profile-Photo" />
           </div>
           <div className="profile-left-lower">
             <h1>Adam Sandberg</h1>
             <p className="id">Applicant ID</p>
-            <hr />
+            <hr className="line" />
             <p>122 344 567</p>
           </div>
         </section>
@@ -62,9 +61,8 @@ const Dash = () => {
             <div className="profile-style">
               <p>Application Status</p>
             </div>
-            <hr />
-            <div className="status">
-            </div>
+            <hr className="line" />
+            <div className="status"></div>
           </div>
         </section>
       </div>
@@ -72,4 +70,4 @@ const Dash = () => {
   );
 };
 
-export default Dash;
+export default Dashboard;

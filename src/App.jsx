@@ -2,16 +2,17 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/Navbar/NavBar";
-import Home from "./components/Navbar/Pages/Home";
-import Apply from "./components/Navbar/Pages/Apply";
-import Contact from "./components/Navbar/Pages/Contact";
-import About from "./components/Navbar/Pages/About";
-import Help from "./components/Navbar/Pages/Help";
+import Home from "./components/Home/Home";
+import Application from "./components/Application/Application";
+import Contact from "./components/Contact/Contact";
+import About from "./components/About/About";
+import Help from "./components/Help/Help";
 import Login from "./components/LogIn/login";
 import Sign from "./components/Signup/Sign";
 import Forget from "./components/ForgetPassword/Password";
-import Dash from "./components/Dashboard/Dashboard";
 import Footer from "./components/Footer/Footer";
+import Dashboard from "./components/Dashboard/Dashboard";
+import UpperNav from "./components/Navbar/UpperNav/UpperNav";
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
           path="/"
           element={
             <>
-              <NavBar />
+              <UpperNav />
+              {/* <NavBar /> */}
               <Home />
               <Footer />
             </>
@@ -32,7 +34,8 @@ const App = () => {
           element={
             <>
               <NavBar />
-              <Apply />
+              <Application />
+              <Footer />
             </>
           }
         />
@@ -70,7 +73,9 @@ const App = () => {
           path="/login"
           element={
             <>
+              <NavBar />
               <Login />
+              <Footer />
             </>
           }
         />
@@ -78,7 +83,9 @@ const App = () => {
           path="/signup"
           element={
             <>
+              <NavBar />
               <Sign />
+              <Footer />
             </>
           }
         />
@@ -91,11 +98,11 @@ const App = () => {
           }
         />
         <Route
-          path="/dashboard"
+          path="/profile"
           element={
             <>
               <NavBar />
-              <Dash />
+              <Dashboard />
               <Footer />
             </>
           }
@@ -105,4 +112,4 @@ const App = () => {
   );
 };
 
-export default App; 
+export default App;
